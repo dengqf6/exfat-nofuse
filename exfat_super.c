@@ -114,6 +114,11 @@
 
 #include "exfat_super.h"
 
+#if LINUX_VERSION_CODE < KERNEL_VERSION(4,18,0)
+#define timespec_to_timespec64
+#define timespec64_to_timespec
+#endif
+
 static struct kmem_cache *exfat_inode_cachep;
 
 static int exfat_default_codepage = CONFIG_EXFAT_DEFAULT_CODEPAGE;
