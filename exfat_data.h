@@ -33,6 +33,8 @@ extern "C" {
 #define BUF_CACHE_HASH_SIZE     64
 #define DEFAULT_CODEPAGE        437
 #define DEFAULT_IOCHARSET       "utf8"
+#define CONFIG_EXFAT_DEFAULT_CODEPAGE 437
+#define CONFIG_EXFAT_DEFAULT_IOCHARSET "utf8"
 #ifdef __cplusplus
 }
 #endif

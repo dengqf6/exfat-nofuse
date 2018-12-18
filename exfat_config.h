@@ -46,9 +46,9 @@ extern "C" {
 #define FFS_CONFIG_SUPPORT_CP949        1
 #define FFS_CONFIG_SUPPORT_CP950        1
 #define FFS_CONFIG_SUPPORT_UTF8         1
-#define EXFAT_CONFIG_DISCARD		1
+#define CONFIG_EXFAT_DISCARD		1
 #define EXFAT_CONFIG_KERNEL_DEBUG	1
-#define EXFAT_CONFIG_DEBUG_MSG		0
+#define CONFIG_EXFAT_KERNEL_DEBUG	1
 
 #ifdef __cplusplus
 }
